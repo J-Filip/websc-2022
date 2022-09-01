@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.netlify/
+.env
+
+# Supabase
+**/supabase/.branches
+**/supabase/.temp
+**/supabase/.env
