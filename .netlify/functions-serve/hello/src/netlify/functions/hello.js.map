@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../../../../Documents/trunk/websc-2022/netlify/functions/hello.ts"],
+  "sourceRoot": "C:/Users/Filip/AppData/Local/Temp/tmp-13516-Iuy6J7qAcAiq",
+  "sourcesContent": ["import { Handler } from '@netlify/functions';\r\n\r\nexport const handler: Handler = async () => {\r\n  return {\r\n    statusCode: 200,\r\n    body: 'hello TypeScript',\r\n  };\r\n};"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAEO,IAAM,UAAmB,YAAY;AAC1C,SAAO;AAAA,IACL,YAAY;AAAA,IACZ,MAAM;AAAA,EACR;AACF;",
+  "names": []
+}

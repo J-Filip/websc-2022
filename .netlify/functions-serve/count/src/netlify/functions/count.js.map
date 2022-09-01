@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../../../../Documents/trunk/websc-2022/netlify/functions/count.ts"],
+  "sourceRoot": "C:/Users/Filip/AppData/Local/Temp/tmp-13516-wPq17gAQy0vv",
+  "sourcesContent": ["import { Handler } from '@netlify/functions';\r\n\r\nexport const handler: Handler = async (event) => {\r\n  const { count } = JSON.parse(event.body || '{}');\r\n\r\n  console.log({ count });\r\n  \r\n  return {\r\n    statusCode: 200,\r\n    body: JSON.stringify({\r\n      count,\r\n      message: `No. of likes is ${count}.`,\r\n    }),\r\n    headers: {\r\n      'Access-Control-Allow-Origin': '*',\r\n    }\r\n  };\r\n};"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAEO,IAAM,UAAmB,OAAO,UAAU;AAC/C,QAAM,EAAE,UAAU,KAAK,MAAM,MAAM,QAAQ,IAAI;AAE/C,UAAQ,IAAI,EAAE,MAAM,CAAC;AAErB,SAAO;AAAA,IACL,YAAY;AAAA,IACZ,MAAM,KAAK,UAAU;AAAA,MACnB;AAAA,MACA,SAAS,mBAAmB;AAAA,IAC9B,CAAC;AAAA,IACD,SAAS;AAAA,MACP,+BAA+B;AAAA,IACjC;AAAA,EACF;AACF;",
+  "names": []
+}
